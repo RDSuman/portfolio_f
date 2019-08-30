@@ -1,9 +1,7 @@
 <?php require_once('../../../private/initialize.php'); ?>
 <?php include(INCLUDE_PATH_ADM.'/header.php'); ?>
 
-
 <?php include(INCLUDE_PATH_ADM.'/navigation.php'); ?>
-
 <?php include(INCLUDE_PATH_PUB.'/about.php'); ?>
 <div class="row">
   <div class="col-md-12 text-center">
