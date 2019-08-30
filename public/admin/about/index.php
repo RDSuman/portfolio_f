@@ -2,8 +2,11 @@
 <?php include(INCLUDE_PATH_ADM.'/header.php'); ?>
 
 
+<<<<<<< HEAD
 <?php include(INCLUDE_PATH_ADM.'/navigation.php'); ?>
 
+=======
+>>>>>>> e0a6f1de97a30bba69dea014e51ef33ae5a4f1eb
 <?php include(INCLUDE_PATH_PUB.'/about.php'); ?>
 <div class="row">
   <div class="col-md-12 text-center">
