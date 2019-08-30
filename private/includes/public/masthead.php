@@ -1,8 +1,9 @@
+
 <header class="masthead bg-primary text-white text-center">
   <div class="container d-flex align-items-center flex-column">
 
     <!-- Masthead Avatar Image -->
-    <img class="masthead-avatar mb-5" src="img/avataaars.svg" alt="">
+    <img class="masthead-avatar mb-5" src="<?php echo url_for('img/avataaars.svg') ?>" alt="">
 
     <!-- Masthead Heading -->
     <h1 class="masthead-heading text-uppercase mb-0">Start Bootstrap</h1>
@@ -18,6 +19,7 @@
 
     <!-- Masthead Subheading -->
     <p class="masthead-subheading font-weight-light mb-0">Graphic Artist - Web Designer - Illustrator</p>
+
 
   </div>
 </header>
