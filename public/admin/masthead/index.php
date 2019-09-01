@@ -11,6 +11,5 @@
   </div>
 </div>
 
-<?php echo substr_count(__FILE__,'admin') ?>
 
 <?php include(INCLUDE_PATH_ADM.'/footer.php'); ?>
