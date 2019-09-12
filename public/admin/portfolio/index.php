@@ -4,14 +4,30 @@
 <?php include(INCLUDE_PATH_ADM.'/navigation.php'); ?>
 
 
-<?php include(INCLUDE_PATH_PUB.'/portfolio.php'); ?>
-<div class="row">
-  <div class="col-md-12 text-center">
-    <button type="button" class="btn btn-lg btn-warning" name="Edit"><a href="<?php echo url_for('/admin/portfolio/edit.php'); ?>">Edit</a></button>
-  </div>
+
+<div class="container">
+  <h2>Portfolio list: </h2>
+  <table class="table table-dark">
+    <thead>
+      <tr>
+        <th>ID</th>
+        <th>Header</th>
+        <th>&nbsp;</th>
+        <th>&nbsp;</th>
+
+      </tr>
+    </thead>
+    <tbody>
+      <tr>
+        <td>1</td>
+        <td>Ocean project</td>
+        <td><button type="button" class="btn btn-warning"><a href="<?php echo url_for('/admin/portfolio/edit.php?id=' . h(u(1))); ?>">Edit</a></button></td>
+        <td><button type="button" class="btn btn-danger"><a href="#">Delete</a></button></td>
+      </tr>
+    </tbody>
+  </table>
 </div>
 
 
-<?php echo substr_count(__FILE__,'admin') ?>
 
 <?php include(INCLUDE_PATH_ADM.'/footer.php'); ?>

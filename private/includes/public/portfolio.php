@@ -24,7 +24,7 @@
               <i class="fas fa-plus fa-3x"></i>
             </div>
           </div>
-          <img class="img-fluid" src="<?php echo url_for('img/portfolio/cabin.png'); ?>" alt="">
+          <img class="img-fluid" src="<?php echo h(url_for('img/portfolio/cabin.png')); ?>" alt="">
         </div>
       </div>
 
@@ -63,7 +63,11 @@
               <!-- Portfolio Modal - Image -->
               <img class="img-fluid rounded mb-5" src="<?php echo url_for('img/portfolio/cabin.png'); ?>" alt="">
               <!-- Portfolio Modal - Text -->
+
               <p class="mb-5">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Mollitia neque assumenda ipsam nihil, molestias magnam, recusandae quos quis inventore quisquam velit asperiores, vitae? Reprehenderit soluta, eos quod consequuntur itaque. Nam.</p>
+              <button class="btn btn-warning" href="#">
+                Visit Project
+              </button>
               <button class="btn btn-primary" href="#" data-dismiss="modal">
                 <i class="fas fa-times fa-fw"></i>
                 Close Window
